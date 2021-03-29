@@ -31,6 +31,35 @@ h1 {
    color: white;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 50%;
+   line-height: 150%;
+}
+.top_m_left {
+   display: inline-block;
+}
+.top_m_right {
+   display: inline-block;
+   width: 240px;
+   position: relative;
+   top: 50px;
+}
+
+.buttons {
+}
+.one {
+   background-color: #fc6a42;
+   color: white;
+   border-width: 0px;
+   border-radius: 2px;
+   font-size: 15%;
+   padding: 5px 15px 5px 15px;
+}
+.two {
+   background-color: #4466c9;
+   color: white;
+   border-width: 0px;
+   border-radius: 2px;
+   font-size: 15%;
+   padding: 5px 15px 5px 15px;
 }
 .s_icons {
    display: inline;
@@ -49,7 +78,7 @@ h1 {
    font-family: Arial, Helvetica, sans-serif;
    font-size: xx-small;
    letter-spacing: -1px;
-   color: rgb(207, 207, 207);
+   color: rgb(219, 219, 219);
 }
 .top_mainmenu ul li {
    display: inline;
