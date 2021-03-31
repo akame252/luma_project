@@ -3,7 +3,6 @@ h1 {
    font-size: small;
 }
 .main {
-   background-color: black;
    border: 1px solid black;
    width: 720px;
    margin: 0 auto;
@@ -11,7 +10,7 @@ h1 {
 
 .top {
    background-image: url(img/top_bg.jpg);
-   height: 400px;
+   height: 380px;
 }
 .top_m {
    width: 500px;
@@ -40,7 +39,7 @@ h1 {
    display: inline-block;
    width: 240px;
    position: relative;
-   top: 50px;
+   top: 55px;
 }
 
 .buttons {
@@ -84,13 +83,59 @@ h1 {
    display: inline;
    padding-right: 15px;
 }
-.features {
-   background-color: purple;
-   height: 190px;
+.top_footer {
+   height: 30px;
+   width: 30px;
+   position: relative;
+   top: -80px;
+   margin: 0 auto;
+   top: -120px;
 }
+.features {
+   height: -100px;
+   width: 500px;
+   margin: 0 auto;
+}
+.features h3 {
+   color: #648cff;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 0%;
+}
+.features p {
+   color: #979797;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50%;
+}
+.feat {
+   width: 32.4%;
+   height: 100px;
+   display: inline-block;
+}
+.feat h4 {
+   text-align: left;
+   padding-left: 45px;
+   font-size: 50%;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 0%;
+}
+.feat p {
+   text-align: left;
+   padding-left: 45px;
+   font-size: 25%;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 180%;
+}
+.feat img {
+   float: left;
+   width: 20%;
+   padding-top: 5px;
+}
+
 .widget {
    background-color: hotpink;
-   height: 190px;
+   height: 150px;
 }
 .screenshot_top {
    background-color: orchid;
