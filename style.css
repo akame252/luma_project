@@ -134,6 +134,8 @@ h1 {
 }
 
 .widget {
+   width: 400px;
+   margin: 0 auto;
 }
 .widget h3 {
    color: #648cff;
@@ -147,6 +149,36 @@ h1 {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 50%;
 }
+.l_arrow {
+   display: inline-block;
+   width: 5%;
+   position: relative;
+   top: -160px;
+}
+.r_arrow {
+   display: inline-block;
+   position: relative;
+   width: 5%;
+   top: -160px;
+   left: 69px;
+}
+.c_widget {
+   display: inline-block;
+   width: 75%;
+}
+
+.l_arrow img {
+   width: 40%;
+}
+.r_arrow img {
+   width: 40%;
+   padding-top: 5px;
+}
+.c_widget img {
+   width: 120%;
+   padding-top: 5px;
+}
+
 .screenshot_top {
    background-color: orchid;
    height: 300px;
