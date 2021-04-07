@@ -178,18 +178,107 @@ h1 {
    width: 120%;
    padding-top: 5px;
 }
-
+.screenshots {
+   width: 400px;
+   margin: 0 auto;
+}
+.screenshots h3 {
+   color: #648cff;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 0%;
+}
+.screenshots p {
+   color: #979797;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50%;
+}
 .screenshot_top {
-   background-color: orchid;
+   padding-top: 10px;
+   width: 500px;
+   margin: 0 auto;
+}
+.st_left {
+   display: inline-block;
+   position: relative;
+   width: 200px;
+   left: 20px;
+}
+.st_right {
+   position: relative;
+   display: inline-block;
+   width: 200px;
    height: 300px;
+   top: -115px;
+   left: 50px;
+}
+.st_left img {
+   width: 100%;
+}
+.st_right h4 {
+   color: #648cff;
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 0%;
+   font-size: 1em;
+   font-weight: bold;
+}
+.st_right p {
+   color: black;
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 100%;
+   font-size: xx-small;
+}
+.st_right img {
+   width: 30%;
 }
 .screenshot_middle {
-   background-color: aqua;
-   height: 300px;
+   padding-top: 10px;
+   width: 500px;
+   margin: 0 auto;
 }
+
 .screenshot_bottom {
-   background-color: blueviolet;
+   padding-top: 10px;
+   width: 500px;
+   margin: 0 auto;
+}
+.sb_left {
+   display: inline-block;
+   position: relative;
+   width: 200px;
+   left: 20px;
+}
+.sb_right {
+   position: relative;
+   display: inline-block;
+   width: 200px;
    height: 300px;
+   top: -90px;
+   left: 50px;
+}
+.sb_left img {
+   width: 100%;
+}
+.sb_right h4 {
+   color: #648cff;
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 0%;
+   font-size: 1em;
+   font-weight: bold;
+}
+.sb_right p {
+   color: black;
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 100%;
+   font-size: xx-small;
+}
+.sb_right img {
+   width: 30%;
 }
 .reviews {
    background-color: violet;
