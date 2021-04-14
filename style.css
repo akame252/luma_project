@@ -236,9 +236,6 @@ h1 {
    width: 500px;
    margin: 0 auto;
 }
-.screenshot_middle .st_left img {
-   width: 20%;
-}
 .sm_left {
    display: inline-block;
    position: relative;
@@ -272,7 +269,7 @@ h1 {
    font-size: xx-small;
 }
 .sm_right img {
-   width: 15%;
+   width: 20%;
 }
 .screenshot_bottom {
    padding-top: 10px;
@@ -337,6 +334,7 @@ h1 {
 .block {
    width: 220px;
    display: inline-block;
+   padding-right: 10px;
 }
 .block p {
    color: black;
@@ -355,15 +353,53 @@ h1 {
 .block img {
    width: 8%;
 }
-.skoba img {
+.skoba {
    width: 8%;
-   text-align: right;
+   float: right;
+}
+.rule {
+   height: 30px;
 }
 .download {
-   background-color: indigo;
-   height: 115px;
+   background-color: #648cff;
+}
+.d_container {
+   width: 500px;
+   margin: 0 auto;
+}
+.d_left {
+   display: inline-block;
+   width: 42%;
+}
+.d_left h5 {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 15px;
+}
+.d_left p {
+   color: #e2e2e2;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 8px;
+   line-height: 1.3em;
+}
+.d_left img {
+   width: 30%;
+}
+.apple {
+   width: 35%;
+}
+.d_right {
+   display: inline-block;
+   width: 50%;
+}
+.d_right img {
+   width: 100%;
+   padding-left: 30px;
 }
 .footer {
    background-color: darkmagenta;
-   height: 100px;
+   height: 150px;
 }
