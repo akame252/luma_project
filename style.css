@@ -235,6 +235,7 @@ h1 {
    padding-top: 10px;
    width: 500px;
    margin: 0 auto;
+   height: 340px;
 }
 .sm_left {
    display: inline-block;
@@ -275,6 +276,7 @@ h1 {
    padding-top: 10px;
    width: 500px;
    margin: 0 auto;
+   height: 300px;
 }
 .sb_left {
    display: inline-block;
@@ -314,6 +316,7 @@ h1 {
 .reviews {
    width: 500px;
    margin: 0 auto;
+   padding-bottom: 20px;
 }
 .reviews h4 {
    color: #648cff;
@@ -366,10 +369,13 @@ h1 {
 .d_container {
    width: 500px;
    margin: 0 auto;
+   padding-top: 20px;
 }
 .d_left {
    display: inline-block;
    width: 42%;
+   position: relative;
+   bottom: 20px;
 }
 .d_left h5 {
    color: white;
@@ -387,9 +393,10 @@ h1 {
 }
 .d_left img {
    width: 30%;
+   height: 19.5px;
 }
 .apple {
-   width: 35%;
+   width: 30%;
 }
 .d_right {
    display: inline-block;
@@ -398,8 +405,48 @@ h1 {
 .d_right img {
    width: 100%;
    padding-left: 30px;
+   position: relative;
+   bottom: -4px;
 }
 .footer {
-   background-color: darkmagenta;
+   background-color: #353854;
    height: 150px;
+}
+.f_container {
+   width: 500px;
+   margin: 0 auto;
+   padding-top: 20px;
+}
+.f_logo {
+   width: 10%;
+   display: inline-block;
+}
+.f_logo img {
+   width: 120%;
+}
+.f_menu {
+   width: 65%;
+   display: inline-block;
+}
+.f_menu ul {
+   display: inline;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.3em;
+   letter-spacing: 0px;
+   color: #9596ab;
+}
+.f_menu ul li {
+   display: inline;
+   padding-right: 45px;
+}
+.f_icons {
+   display: inline-block;
+   width: 22%;
+}
+.f_icons img {
+}
+.f_icons ul li {
+   display: inline;
+   padding-right: 0px;
+   padding-right: 10px;
 }
