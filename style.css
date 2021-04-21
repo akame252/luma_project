@@ -1,9 +1,4 @@
-h1 {
-   color: orange;
-   font-size: small;
-}
 .main {
-   border: 1px solid black;
    width: 720px;
    margin: 0 auto;
 }
@@ -443,10 +438,23 @@ h1 {
    display: inline-block;
    width: 22%;
 }
-.f_icons img {
-}
 .f_icons ul li {
    display: inline;
    padding-right: 0px;
    padding-right: 10px;
+}
+.f_container p {
+   color: #434769;
+   font-size: 0.5em;
+   text-align: right;
+   padding-right: 15px;
+}
+.hr {
+   padding-left: 120px;
+}
+.up {
+   width: 3%;
+   float: right;
+   padding-right: 30px;
+   padding-top: 28.5px;
 }
